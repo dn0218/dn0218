@@ -1,4 +1,4 @@
-# 👋 Hello, I'm [Danny Hii Lu Hui]
+# 👋 Hello, I'm Danny Hii Lu Hui
 
 ### Network Engineer & Linux System Administrator (RHCSA Candidate)
 📍 Based in Kuala Lumpur, Malaysia 🇲🇾
