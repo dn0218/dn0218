@@ -69,6 +69,6 @@ I am a technical professional with over a year of experience in the telecommunic
 
 ## 📫 How to Reach Me
 
-- **LinkedIn:** [Your LinkedIn URL]
-- **Email:** [Your Professional Email]
+- **LinkedIn:** www.linkedin.com/in/danny-hii-lu-hui-129938286
+- **Email:** dn020218@gmail.com
 - **Freelance Platforms:** [Upwork/Fiverr Profile Link]
