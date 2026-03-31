@@ -42,7 +42,7 @@ I am a technical professional with over a year of experience in the telecommunic
   - Scheduled automatic yum/dnf updates using **cron**.
 
 ### 2. 📊 Enterprise Monitoring with Zabbix on RHEL
-**[ Link to Repository / Project Folder ]**
+**[ https://github.com/dn0218/Enterprise-Monitoring-System-with-Zabbix-6.4-on-RHEL-9 ]**
 - **Description:** Deployed a Zabbix server on a RHEL-based VPS to monitor network performance and server health.
 - **Key RHCSA Skills:**
   - Systemd service management (managing `zabbix-server`, `httpd`, `mariadb`).
