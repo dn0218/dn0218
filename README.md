@@ -59,8 +59,8 @@ I am a technical professional with over a year of experience in the telecommunic
  
 ### 4. 📦 GlusterFS Distributed Storage for RMAN Backup
 
-[https://github.com/dn0218/glusterfs-rman-storage]
-- **Description:**Designed and deployed a high-availability distributed storage system using GlusterFS (Replica 2 + Arbiter 1) for Oracle RMAN backup, ensuring data redundancy and split-brain prevention.
+[https://github.com/dn0218/GlusterFS-Distributed-Storage-Setup-for-Oracle-RMAN-Backup]
+- **Description:** Designed and deployed a high-availability distributed storage system using GlusterFS (Replica 2 + Arbiter 1) for Oracle RMAN backup, ensuring data redundancy and split-brain prevention.
 - **Key Skills:**
  - Configured LVM and XFS for large-scale backup storage
  - Implemented GlusterFS distributed volume (Replica + Arbiter architecture)
