@@ -33,7 +33,7 @@ I am a technical professional with over a year of experience in the telecommunic
 *Here are some of the mini-projects I've built to apply my Linux knowledge.*
 
 ### 1. 🛡️ Linux Server Security & Hardening Script
-**[ Link to Repository / Project Folder ]**
+**[https://github.com/dn0218/Linux-Server-Hardening-Script]**
 - **Description:** A Bash script to automate the initial setup and hardening of a fresh RHEL/Rocky Linux server.
 - **Key RHCSA Skills:**
   - Configured **firewalld** (allowing only essential services).
