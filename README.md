@@ -56,6 +56,17 @@ I am a technical professional with over a year of experience in the telecommunic
 - **Key RHCSA Skills:**
   - **LVM (Logical Volume Manager):** Creating PVs, VGs, and LVs.
   - File system resizing (using `xfs_growfs` / `resize2fs`).
+ 
+### 4. 📦 GlusterFS Distributed Storage for RMAN Backup
+
+[https://github.com/dn0218/glusterfs-rman-storage]
+- **Description:**Designed and deployed a high-availability distributed storage system using GlusterFS (Replica 2 + Arbiter 1) for Oracle RMAN backup, ensuring data redundancy and split-brain prevention.
+- **Key Skills:**
+ - Configured LVM and XFS for large-scale backup storage
+ - Implemented GlusterFS distributed volume (Replica + Arbiter architecture)
+ - Performed volume expansion and rebalance operations
+ - Designed HA storage architecture for database backup systems
+ - Managed Linux filesystem mounting and permissions
 
 ---
 
