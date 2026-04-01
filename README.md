@@ -51,7 +51,7 @@ I am a technical professional with over a year of experience in the telecommunic
   - SELinux context configuration (managing ports and file access for the Zabbix frontend).
 
 ### 3. 💾 LVM Storage Management SOP & Automation
-**[ Link to Repository / Project Folder ]**
+**[https://github.com/dn0218/RHEL-LVM-Lifecycle-Manager]**
 - **Description:** Detailed documentation and a simple script to safely extend logical volumes using LVM when disk space is running low.
 - **Key RHCSA Skills:**
   - **LVM (Logical Volume Manager):** Creating PVs, VGs, and LVs.
