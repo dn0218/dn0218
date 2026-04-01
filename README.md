@@ -7,12 +7,12 @@
 
 ## 🚀 About Me
 
-I am a technical professional with over a year of experience in the telecommunications industry, focusing on Network Engineering and Linux System Administration. Currently, I am expanding my expertise by self-studying for the **RHCSA (Red Hat Certified System Administrator)** certification and preparing for **CCNP Enterprise**.
+I am a technical professional with over a year of experience in the telecommunications industry, focusing on Network Engineering and Linux System Administration. Currently, I am expanding my expertise by self-studying for the **RHCSA (Red Hat Certified System Administrator)** certification and **CCNP Enterprise**.
 
 - 🔭 **Currently working on:** Automating server deployments and enhancing enterprise monitoring.
-- 🌱 **Learning:** RHCE (Ansible), CCNP, and CFA (Level 1).
-- 💬 **Ask me about:** Linux (RHEL/CentOS), Networking (VLANs, VPNs), Zabbix, FreePBX.
-- ⭐ **Goal:** To become a cross-domain expert in Network Infrastructure, Systems, and Financial Technology.
+- 🌱 **Learning:** RHCSA, CCNP.
+- 💬 **Ask me about:** Linux (RHEL), Networking (VLANs, VPNs), Zabbix, FreePBX.
+- ⭐ **Goal:** To become a cross-domain expert in Infrastructure, Network and Systems Technology.
 
 ---
 
@@ -20,8 +20,8 @@ I am a technical professional with over a year of experience in the telecommunic
 
 | Category | Skills |
 | :--- | :--- |
-| **Operating Systems** | RHEL/CentOS/Rocky Linux (RHCSA level), Ubuntu Server |
-| **Networking** | VLANs, VPN (OpenVPN), Switching/Routing (Cisco), FreePBX/VoIP |
+| **Operating Systems** | RHEL/Rocky Linux (RHCSA level), Ubuntu Server |
+| **Networking** | VLANs, VPN (OpenVPN), Switching/Routing (CCNA), FreePBX/VoIP |
 | **Monitoring** | Zabbix (Intermediate), Prometheus/Grafana (Basic) |
 | **Automation & Scripting**| Bash Scripting (Automation tasks), Cron |
 | **Services** | Apache (HTTPD), Nginx, firewalld/iptables, SSH, LVM, User Mgmt |
