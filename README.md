@@ -1,84 +1,67 @@
 # 👋 Hello, I'm Danny Hii Lu Hui
-
-### Network Engineer & Linux System Administrator (RHCSA Candidate)
-📍 Based in Kuala Lumpur, Malaysia 🇲🇾
+### Network Engineer & Linux System Administrator | RHCSA Candidate
+📍 Kuala Lumpur, Malaysia 🇲🇾
 
 ---
 
 ## 🚀 About Me
+I am a technical professional with experience in the telecommunications industry, specializing in **Network Engineering** and **Linux System Administration** on RHEL-based environments. Passionate about building secure, automated, and production-ready infrastructure, I am currently deepening my expertise through self-study for the **RHCSA** and **CCNP Enterprise** certifications.
 
-I am a technical professional with over a year of experience in the telecommunications industry, focusing on Network Engineering and Linux System Administration. Currently, I am expanding my expertise by self-studying for the **RHCSA (Red Hat Certified System Administrator)** certification and **CCNP Enterprise**.
+My recent focus lies in **modern container orchestration** using **rootless Podman** and **Systemd Quadlet**, combined with **LVM storage automation** — bridging traditional Linux administration with cloud-native practices.
 
-- 🔭 **Currently working on:** Automating server deployments and enhancing enterprise monitoring.
-- 🌱 **Learning:** RHCSA, CCNP.
-- 💬 **Ask me about:** Linux (RHEL), Networking (VLANs, VPNs), Zabbix, FreePBX.
-- ⭐ **Goal:** To become a cross-domain expert in Infrastructure, Network and Systems Technology.
+- 🔭 **Currently working on:** Containerized infrastructure automation, dynamic LVM storage orchestration for containers, and enterprise-grade monitoring solutions.
+- 🌱 **Learning:** Advanced Podman/Quadlet patterns, RHEL storage & security best practices, CCNP Enterprise.
+- 💬 **Ask me about:** Rootless Podman, Quadlet, LVM automation, Zabbix multi-node monitoring, RHEL hardening, Networking (VLANs, VPNs, VoIP).
+- ⭐ **Goal:** To become a cross-domain expert in secure, automated Infrastructure, Networking, and Containerized Systems.
 
 ---
 
 ## 🔧 Skills & Tools
-
-| Category | Skills |
-| :--- | :--- |
-| **Operating Systems** | RHEL/Rocky Linux (RHCSA level), Ubuntu Server |
-| **Networking** | VLANs, VPN (OpenVPN), Switching/Routing (CCNA), FreePBX/VoIP |
-| **Monitoring** | Zabbix (Intermediate), Prometheus/Grafana (Basic) |
-| **Automation & Scripting**| Bash Scripting (Automation tasks), Cron |
-| **Services** | Apache (HTTPD), Nginx, firewalld/iptables, SSH, LVM, User Mgmt |
+| Category              | Skills |
+|-----------------------|--------|
+| **Operating Systems** | RHEL 9 / Rocky Linux (RHCSA level), Ubuntu Server |
+| **Containers**        | **Rootless Podman**, **Systemd Quadlet**, Podman Pods, Containerfile |
+| **Storage**           | **LVM** (PV/VG/LV management, dynamic extension), XFS (`xfs_growfs`), SELinux container contexts |
+| **Networking**        | VLANs, OpenVPN, Switching/Routing (CCNA level), FreePBX/VoIP |
+| **Monitoring**        | **Zabbix 6.4** (Server + multi-node monitoring), Prometheus/Grafana (basic) |
+| **Automation & Security** | Bash scripting, Systemd timers/services, firewalld, SSH hardening, Server hardening, SELinux |
+| **Web & Services**    | Nginx, Apache (HTTPD), MariaDB/MySQL, rootless container deployment |
 
 ---
 
-## 📂 Highlighted Projects (Demo of RHCSA Skills)
+## 📂 Highlighted Projects (Showcasing RHCSA + Modern Container Skills)
 
-*Here are some of the mini-projects I've built to apply my Linux knowledge.*
+### 1. 🛡️ Hardened Rootless Podman with Quadlet
+**[Hardened-Rootless-Podman-with-Quadlet](https://github.com/dn0218/Hardened-Rootless-Podman-with-Quadlet)**  
+Production-grade rootless Podman setup on RHEL 9 using **Systemd Quadlet** for declarative container management. Features automated image updates via systemd timers, immutable containers (`--new`), user namespaces, and PASTA networking. Demonstrates enterprise security and operational excellence.
 
-### 1. 🛡️ Linux Server Security & Hardening Script
-**[https://github.com/dn0218/Linux-Server-Hardening-Script]**
-- **Description:** A Bash script to automate the initial setup and hardening of a fresh RHEL/Rocky Linux server.
-- **Key RHCSA Skills:**
-  - Configured **firewalld** (allowing only essential services).
-  - Configured **SSH** (disabling root login, changing default port, enforcing key-based auth).
-  - User and group management (creating standard users with `sudo` access).
-  - Scheduled automatic yum/dnf updates using **cron**.
+### 2. 💾 RHEL Storage Orchestrator — LVM + Podman Quadlet Automation
+**[RHEL-Storage-Orchestrator-LVM-Podman-Quadlet-Automation](https://github.com/dn0218/RHEL-Storage-Orchestrator-LVM-Podman-Quadlet-Automation)**  
+Automated LVM storage provisioning that dynamically creates or extends logical volumes during Podman container startup (via `ExecStartPre` + Quadlet). Includes smart detection logic, XFS online growth, and SELinux compliance — solving "disk full" issues in containerized environments.
 
-### 2. 📊 Enterprise Monitoring with Zabbix on RHEL
-**[ https://github.com/dn0218/Enterprise-Monitoring-System-with-Zabbix-6.4-on-RHEL-9 ]**
-- **Description:** Deployed a Zabbix server on a RHEL-based VPS to monitor network performance and server health.
-- **Key RHCSA Skills:**
-  - Systemd service management (managing `zabbix-server`, `httpd`, `mariadb`).
-  - Network service configuration.
-  - Basic SQL database setup.
-  - SELinux context configuration (managing ports and file access for the Zabbix frontend).
+### 3. 📊 Containerized Zabbix 6.4 Stack with Multi-Node Monitoring
+**[Containerized-Zabbix-6.4-Stack-with-Multi-Node-Monitoring](https://github.com/dn0218/Containerized-Zabbix-6.4-Stack-with-Multi-Node-Monitoring)**  
+Full Zabbix 6.4 monitoring stack (Server + Web + DB) deployed using **rootless Podman Pods**. Supports cross-VM agent monitoring with proper SELinux and firewall configuration.
 
-### 3. 💾 LVM Storage Management SOP & Automation
-**[https://github.com/dn0218/RHEL-LVM-Lifecycle-Manager]**
-- **Description:** Detailed documentation and a simple script to safely extend logical volumes using LVM when disk space is running low.
-- **Key RHCSA Skills:**
-  - **LVM (Logical Volume Manager):** Creating PVs, VGs, and LVs.
-  - File system resizing (using `xfs_growfs` / `resize2fs`).
- 
-### 4. 📦 GlusterFS Distributed Storage for RMAN Backup
+### 4. 🌐 Podman Containerized Web Stack with LVM Integration
+**[Podman-Containerized-Web-Stack-with-LVM-Integration](https://github.com/dn0218/Podman-Containerized-Web-Stack-with-LVM-Integration)**  
+Rootless Nginx web server with persistent LVM-backed storage, SELinux-aware volume mounts, custom Containerfile, and professional logging architecture.
 
-[https://github.com/dn0218/GlusterFS-Distributed-Storage-Setup-for-Oracle-RMAN-Backup]
-- **Description:** Designed and deployed a high-availability distributed storage system using GlusterFS (Replica 2 + Arbiter 1) for Oracle RMAN backup, ensuring data redundancy and split-brain prevention.
-- **Key Skills:**
- - Configured LVM and XFS for large-scale backup storage
- - Implemented GlusterFS distributed volume (Replica + Arbiter architecture)
- - Performed volume expansion and rebalance operations
- - Designed HA storage architecture for database backup systems
- - Managed Linux filesystem mounting and permissions
+*(Other projects including Linux Server Hardening Script、GlusterFS HA Storage for Oracle RMAN etc.，Focus on RHEL Practical project)*
 
 ---
 
 ## 🎓 Certifications (In Progress)
+- 🔴 **RHCSA (Red Hat Certified System Administrator)**
+- 🌐 **CCNP Enterprise**
 
-- 🔴 **RHCSA (Red Hat Certified System Administrator)** - *Target Completion: [Date]*
-- 🌐 **CCNP Enterprise (Cisco Certified Network Professional)** - *Target Completion: [Date]*
-- 📈 **CFA (Chartered Financial Analyst) Level 1** - *Target Completion: [Date]*
 
 ---
 
 ## 📫 How to Reach Me
-
-- **LinkedIn:** www.linkedin.com/in/danny-hii-lu-hui-129938286
+- **LinkedIn:** [linkedin.com/in/danny-hii-lu-hui-129938286](https://www.linkedin.com/in/danny-hii-lu-hui-129938286)
 - **Email:** dn020218@gmail.com
+
+---
+
+**Always open to collaboration on RHEL, Podman, storage automation, or monitoring projects!** 🚀
