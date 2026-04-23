@@ -5,15 +5,16 @@
 ---
 
 ## 🚀 About Me
-I am a technical professional with experience in the telecommunications industry, specializing in **Network Engineering** and **Linux System Administration** on RHEL-based environments. Passionate about building secure, automated, and production-ready infrastructure, I am currently deepening my expertise through self-study for the **RHCSA** and **CCNP Enterprise** certifications.
+I am a technical professional with experience in the telecommunications industry, specializing in **Network Engineering** and **Linux System Administration** on RHEL-based environments. Passionate about building secure, automated, and production-ready infrastructure, I am currently deepening my expertise through self-study for the **RHCSA** certification, with a strong focus on **Ansible automation** for infrastructure orchestration and **K3s** for lightweight Kubernetes deployment.
 
 My recent focus lies in **modern container orchestration** using **rootless Podman** and **Systemd Quadlet**, combined with **LVM storage automation** — bridging traditional Linux administration with cloud-native practices.
 
-- 🔭 **Currently working on:** Containerized infrastructure automation, dynamic LVM storage orchestration for containers, and enterprise-grade monitoring solutions.
-- 🌱 **Learning:** Advanced Podman/Quadlet patterns, RHEL storage & security best practices, CCNP Enterprise.
-- 💬 **Ask me about:** Rootless Podman, Quadlet, LVM automation, Zabbix multi-node monitoring, RHEL hardening, Networking (VLANs, VPNs, VoIP).
-- ⭐ **Goal:** To become a cross-domain expert in secure, automated Infrastructure, Networking, and Containerized Systems.
+- 🔭 **Currently working on**: Ansible-driven infrastructure automation, lightweight K3s cluster orchestration, and distributed container observability.
 
+- 🌱 **Learning**: Advanced Ansible automation patterns, K3s high-availability cluster design with external datastores, and Prometheus/Grafana observability stack.
+- 
+- 💬 **Ask me about:** Rootless Podman, Quadlet, LVM automation, **Ansible IaC, K3s lightweight Kubernetes**, Zabbix multi-node monitoring, RHEL hardening, Networking (VLANs, VPNs, VoIP).
+- ⭐ **Goal:** To become a cross-domain expert in secure, automated Infrastructure, Ansible-driven orchestration, K3s/Kubernetes, and Containerized Systems.
 ---
 
 ## 🔧 Skills & Tools
@@ -22,7 +23,7 @@ My recent focus lies in **modern container orchestration** using **rootless Podm
 | **Operating Systems** | RHEL 9 / Rocky Linux (RHCSA level), Ubuntu Server |
 | **Containers**        | **Rootless Podman**, **Systemd Quadlet**, Podman Pods, Containerfile |
 | **Storage**           | **LVM** (PV/VG/LV management, dynamic extension), XFS (`xfs_growfs`), SELinux container contexts |
-| **Networking**        | VLANs, OpenVPN, Switching/Routing (CCNA level), FreePBX/VoIP |
+| **Networking**        | Networking | VLANs, OpenVPN, Switching/Routing, FreePBX/VoIP, K3s Networking (Flannel VXLAN, Klipper ServiceLB)
 | **Monitoring**        | **Zabbix 6.4** (Server + multi-node monitoring), Prometheus/Grafana (basic) |
 | **Automation & Security** | Bash scripting, Systemd timers/services, firewalld, SSH hardening, Server hardening, SELinux |
 | **Web & Services**    | Nginx, Apache (HTTPD), MariaDB/MySQL, rootless container deployment |
@@ -47,14 +48,29 @@ Full Zabbix 6.4 monitoring stack (Server + Web + DB) deployed using **rootless P
 **[Podman-Containerized-Web-Stack-with-LVM-Integration](https://github.com/dn0218/Podman-Containerized-Web-Stack-with-LVM-Integration)**  
 Rootless Nginx web server with persistent LVM-backed storage, SELinux-aware volume mounts, custom Containerfile, and professional logging architecture.
 
+### 5. 🚀 K3s Declarative Nginx Cluster — GitOps with SELinux Hardening
+**[K3s-Declarative-Nginx-Cluster](https://github.com/dn0218/K3s-Declarative-Nginx-Cluster)**
+High-availability Nginx deployment on a hybrid K3s cluster (RHEL 9.7 Master + Rocky 10.1 Worker). Features **zero-root privilege execution** (UID 101), **declarative GitOps workflow** (kubectl apply -f . --recursive), and full SELinux compliance in restricted environments. Demonstrates enterprise-grade K3s security and operational patterns.
+
+### 6. ⚡ Lightweight K3s Cluster on RHEL9 with External PostgreSQL
+**[Lightweight-K3s-Cluster-on-RHEL9-with-External-DB](https://github.com/dn0218/Lightweight-K3s-Cluster-on-RHEL9-with-External-DB)**
+Production-hardened hybrid K3s cluster with external PostgreSQL datastore for control plane persistence. Maintains **SELinux (Enforcing)** and **Firewalld (Active)** throughout. Features Zabbix 7.0 monitoring stack deployed via Helm, Klipper ServiceLB for load balancing, and seamless RHEL 9/Rocky 10 cross-node communication.
+
+### 7. 🤖 AutoStack-Monitor — Ansible-Powered WordPress HA Deployment
+**[AutoStack-Monitor](https://github.com/dn0218/AutoStack-Monitor)**
+Enterprise-grade **Ansible automation** solution enabling "one-click" fully automated deployment of a highly available WordPress container stack across RHEL/Rocky Linux 9 and Ubuntu 24.04. Highlights cross-distribution container orchestration using **Podman Quadlet** with rootless security, NFS-based distributed storage for persistence, and Zabbix/Grafana monitoring integration.
+
+### 8. 📡 DRCOO — Distributed Rootless Container Orchestration & Observability
+**[Distributed-Rootless-Container-Orchestration-Observability-DRCOO-](https://github.com/dn0218/Distributed-Rootless-Container-Orchestration-Observability-DRCOO-)**
+Infrastructure-as-Code (IaC) project for enterprise-level container management. Leverages **Ansible**, **Podman Quadlet**, and **Prometheus/Grafana stack** to deploy a secure, rootless, and highly observable environment across RHEL 9 and Rocky Linux 10 nodes. Features automated SELinux labeling and one-click observability deployment.
+
 *(Other projects including Linux Server Hardening Script、GlusterFS HA Storage for Oracle RMAN etc.，Focus on RHEL Practical project)*
 
 ---
 
 ## 🎓 Certifications (In Progress)
 - 🔴 **RHCSA (Red Hat Certified System Administrator)**
-- 🌐 **CCNP Enterprise**
-
+- 🤖 Ansible Automation & K3s/Kubernetes (in progress)
 
 ---
 
