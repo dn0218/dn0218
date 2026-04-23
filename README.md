@@ -12,7 +12,7 @@ My recent focus lies in **modern container orchestration** using **rootless Podm
 - 🔭 **Currently working on**: Ansible-driven infrastructure automation, lightweight K3s cluster orchestration, and distributed container observability.
 
 - 🌱 **Learning**: Advanced Ansible automation patterns, K3s high-availability cluster design with external datastores, and Prometheus/Grafana observability stack.
-- 
+
 - 💬 **Ask me about:** Rootless Podman, Quadlet, LVM automation, **Ansible IaC, K3s lightweight Kubernetes**, Zabbix multi-node monitoring, RHEL hardening, Networking (VLANs, VPNs, VoIP).
 - ⭐ **Goal:** To become a cross-domain expert in secure, automated Infrastructure, Ansible-driven orchestration, K3s/Kubernetes, and Containerized Systems.
 ---
